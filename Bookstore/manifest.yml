@@ -1,0 +1,7 @@
+---
+applications:
+- name: bookstore
+  memory: 612M
+  path: target\Bookstore-0.0.1-SNAPSHOT.war
+  instances: 1
+  random-route: true
